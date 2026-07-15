@@ -1,4 +1,4 @@
-package com.ddokddokphone.android
+package com.phonelink.android
 
 import android.app.Application
 import android.content.res.Configuration

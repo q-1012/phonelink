@@ -37,4 +37,6 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
-ddokddokphone-51b1a-firebase-adminsdk-fbsvc-64de3efac6.json
+phonelink-1fb8d-firebase-adminsdk-fbsvc-a24fd10534.json
+google-services.json
+GoogleService-Info.plist

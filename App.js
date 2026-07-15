@@ -39,7 +39,7 @@ function sleep(ms) {
 
 export default function App() {
 
-  const defaultUri = 'https://m.ddokddokphone.com/account/signin';
+  const defaultUri = 'https://m.phonelink.co.kr/account/signin';
 
   //스크린샷 방지
   ScreenCapture.preventScreenCaptureAsync();
@@ -82,7 +82,7 @@ export default function App() {
     let isMounted = true;
 
     //기본 uri 설정
-    setNavUri('https://m.ddokddokphone.com/account/signin');
+    setNavUri('https://m.phonelink.co.kr/account/signin');
 
     //푸시
     registerForPushNotificationsAsync().then(token => setExpoPushToken(token));
@@ -110,8 +110,8 @@ export default function App() {
             
           } else {
             let enLink = encodeURIComponent(link);
-            console.error('fetch called: ', 'https://m.ddokddokphone.com/common/pushLinkMove?link='+enLink+'&os='+Platform.OS);
-            fetch('https://m.ddokddokphone.com/common/pushLinkMove?link='+enLink+'&os='+Platform.OS, {
+            console.error('fetch called: ', 'https://m.phonelink.co.kr/common/pushLinkMove?link='+enLink+'&os='+Platform.OS);
+            fetch('https://m.phonelink.co.kr/common/pushLinkMove?link='+enLink+'&os='+Platform.OS, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
@@ -173,7 +173,7 @@ export default function App() {
 
         //console.log(rtv);
 
-        fetch('https://m.ddokddokphone.com/common/putToken?token='+rtv+'&os='+Platform.OS, {
+        fetch('https://m.phonelink.co.kr/common/putToken?token='+rtv+'&os='+Platform.OS, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
