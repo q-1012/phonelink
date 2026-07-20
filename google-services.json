@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286047113443",
+    "project_id": "phonelink-1fb8d",
+    "storage_bucket": "phonelink-1fb8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286047113443:android:a5424d1e4addea2b1eb5d6",
+        "android_client_info": {
+          "package_name": "com.phonelink.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC36YUaV3rZY9pgqB9_s4G5Ie0aU9W4Fz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

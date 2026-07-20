@@ -38,5 +38,3 @@ yarn-error.*
 
 # generated native folders
 phonelink-1fb8d-firebase-adminsdk-fbsvc-a24fd10534.json
-google-services.json
-GoogleService-Info.plist
