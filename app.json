@@ -21,7 +21,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1.0.0",
+      "buildNumber": "2",
       "bundleIdentifier": "com.phonelink.ios",
       "splash": {
         "image": "./assets/splash1.png",
@@ -53,7 +53,7 @@
         "android.permission.READ_MEDIA_VIDEO",
         "android.permission.READ_MEDIA_AUDIO"
       ],
-      "package": "com.phonelink.android",
+      "package": "com.plink.android",
       "googleServicesFile": "./google-services.json",
       "versionCode": 1
     },

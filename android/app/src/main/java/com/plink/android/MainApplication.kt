@@ -1,4 +1,4 @@
-package com.phonelink.android
+package com.plink.android
 
 import android.app.Application
 import android.content.res.Configuration

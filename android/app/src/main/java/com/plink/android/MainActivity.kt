@@ -1,4 +1,4 @@
-package com.phonelink.android
+package com.plink.android
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build
@@ -21,7 +21,6 @@ import com.facebook.react.defaults.DefaultReactActivityDelegate
 import expo.modules.ReactActivityDelegateWrapper
 
 class MainActivity : ReactActivity() {
-
   private var splashOverlay: ImageView? = null
 
   override fun onCreate(savedInstanceState: Bundle?) {
