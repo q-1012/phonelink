@@ -38,3 +38,21 @@ yarn-error.*
 
 # generated native folders
 phonelink-1fb8d-firebase-adminsdk-fbsvc-a24fd10534.json
+
+# Android C/C++ Native Build folder
+android/app/.cxx/
+android/.cxx/
+
+# Gradle & Build Output
+android/app/build/
+android/build/
+android/.gradle/
+
+# Android C/C++ Native Build folder
+android/app/.cxx/
+android/.cxx/
+
+# Gradle & Build Output
+android/app/build/
+android/build/
+android/.gradle/
